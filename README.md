@@ -1,5 +1,15 @@
 # Basic simulation ns-3 module
 
+This project is forked and modified from <a href="https://github.com/snkas/basic-sim">basic-sim</a>. We modified the output interface of the ground stations in the topology, by integrading the Token Bucket Filter provided by ns-3. This allows the simulator to emulate the behavior of a Token Bucket Meter
+
+
+
+## Original Installation Guide
+The following section is the original installation guide provided by the authors. 
+
+**Note: We have modified some of the installation commands to better fit our use case.**
+
+
 [![build](https://github.com/snkas/basic-sim/workflows/build/badge.svg)](https://github.com/snkas/basic-sim/actions?query=workflow%3Abuild+branch%3Amaster)
 [![codecov](https://codecov.io/gh/snkas/basic-sim/branch/master/graph/badge.svg)](https://codecov.io/gh/snkas/basic-sim)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
@@ -44,7 +54,7 @@ The below instructions assume you already have a working copy of ns-3 located at
     Method 1: git clone (strongly recommended to enforce a particular commit checkout to manage the version you use)
     ```
     cd /path/to/your/folder/of/ns-3/contrib
-    git clone https://github.com/snkas/basic-sim.git
+    git clone https://github.com/NYCU-NetworkSystemLab/basic-sim.git
     cd basic-sim
     git checkout <commit-sha>
     ```
@@ -52,10 +62,12 @@ The below instructions assume you already have a working copy of ns-3 located at
     Method 2: git submodule
     ```
     cd /path/to/your/folder/of/ns-3/contrib
-    git submodule add https://github.com/snkas/basic-sim.git
+    git submodule add https://github.com/NYCU-NetworkSystemLab/basic-sim.git
     ```
    
     Method 3: manually download the zip of this git repository and extract it there.
+
+   
    
 3. **Compile**
 
