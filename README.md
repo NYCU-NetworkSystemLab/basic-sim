@@ -41,13 +41,13 @@ This ns-3 module is intended to make experimental simulation of networks a bit e
     Method 1: git clone
     ```
     cd /path/to/your/folder/of/ns-3/contrib
-    git clone https://github.com/snkas/basic-sim.git
+    git clone https://github.com/NYCU-NetworkSystemLab/basic-sim.git
     ```
    
     Method 2: git submodule
     ```
     cd /path/to/your/folder/of/ns-3/contrib
-    git submodule add https://github.com/snkas/basic-sim.git
+    git submodule add https://github.com/NYCU-NetworkSystemLab/basic-sim.git
     ```
    
     Method 3: download the zip of this git repository and extract it there.
