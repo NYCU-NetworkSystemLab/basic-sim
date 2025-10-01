@@ -1,5 +1,15 @@
 # Basic simulation ns-3 module
 
+This project is forked and modified from <a href="https://github.com/snkas/basic-sim">basic-sim</a>. We modified the output interface of the ground stations in the topology, by integrading the Token Bucket Filter provided by ns-3. This allows the simulator to emulate the behavior of a Token Bucket Meter
+
+
+
+## Original Installation Guide
+The following section is the original installation guide provided by the authors. 
+
+**Note: We have modified some of the installation commands to better fit our use case.**
+
+
 [![Build Status](https://travis-ci.org/snkas/basic-sim.svg?branch=master)](https://travis-ci.org/snkas/basic-sim) [![codecov](https://codecov.io/gh/snkas/basic-sim/branch/master/graph/badge.svg)](https://codecov.io/gh/snkas/basic-sim)
 
 This ns-3 module is intended to make experimental simulation of networks a bit easier. It has a wrapper to take care of loading in run folder configurations (e.g., runtime, random seed), a topology abstraction, an additional routing abstraction called "arbiter routing", a heuristic TCP optimizer, and a few handy applications.
