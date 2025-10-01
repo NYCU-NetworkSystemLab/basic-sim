@@ -8,7 +8,7 @@ This project is forked and modified from <a href="https://github.com/snkas/basic
 The following section is the original installation guide provided by the authors. 
 
 **Note: We have modified some of the installation commands to better fit our use case.**
-
+**Please use old-basic-sim-version branch to reproduce the experiments, as our experiments rely on some code from the older version of basic-sim.**
 
 [![build](https://github.com/snkas/basic-sim/workflows/build/badge.svg)](https://github.com/snkas/basic-sim/actions?query=workflow%3Abuild+branch%3Amaster)
 [![codecov](https://codecov.io/gh/snkas/basic-sim/branch/master/graph/badge.svg)](https://codecov.io/gh/snkas/basic-sim)
