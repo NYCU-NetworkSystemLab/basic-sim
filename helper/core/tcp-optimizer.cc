@@ -66,7 +66,7 @@ void TcpOptimizer::Generic() {
     Config::SetDefault("ns3::TcpSocketState::EnablePacing", BooleanValue(pacing_enabled));
 
     // Disable Delayed ACK by setting DelAckTimeout to 0
-    int64_t del_ack_timeout_ns = 0; // Default is typically 0.2s, set to 0 to disable delayed ACK
+    int64_t del_ack_timeout_ns = 0.2; // Default is typically 0.2s, set to 0 to disable delayed ACK
     printf("  > Delayed ACK Timeout........ %.3f ms (0 disables delayed ACK)\n", del_ack_timeout_ns / 1e6);
     Config::SetDefault("ns3::TcpSocket::DelAckTimeout", TimeValue(NanoSeconds(del_ack_timeout_ns)));
 }
