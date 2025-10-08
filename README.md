@@ -1,8 +1,6 @@
 # Basic simulation ns-3 module
 
-This project is forked and modified from <a href="https://github.com/snkas/basic-sim">basic-sim</a>. We modified the output interface of the ground stations in the topology, by integrading the Token Bucket Filter provided by ns-3. This allows the simulator to emulate the behavior of a Token Bucket Meter
-
-
+This project is forked and modified from <a href="https://github.com/snkas/basic-sim">basic-sim</a>. We modified the TCP optimizer to enable pacing and adjust certain TCP settings (e.g., disabling Delayed ACKs). 
 
 ## Original Installation Guide
 The following section is the original installation guide provided by the authors. 
